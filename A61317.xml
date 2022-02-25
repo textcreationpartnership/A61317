@@ -1,0 +1,530 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An exposition upon Sir George Ripley's Epistle to King Edward IV written by Eirenæus Philalethes Anglus, cosmopolita.</title>
+            <author>Philalethes, Eirenaeus.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1677</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 55 KB of XML-encoded text transcribed from 26 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A61317</idno>
+            <idno type="STC">Wing S5274</idno>
+            <idno type="STC">ESTC R8174</idno>
+            <idno type="EEBO-CITATION">12090179</idno>
+            <idno type="OCLC">ocm 12090179</idno>
+            <idno type="VID">53838</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A61317)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 53838)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 77:8)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An exposition upon Sir George Ripley's Epistle to King Edward IV written by Eirenæus Philalethes Anglus, cosmopolita.</title>
+                  <author>Philalethes, Eirenaeus.</author>
+                  <author>Starkey, George, 1627-1665.</author>
+               </titleStmt>
+               <extent>[2], 44, [4] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed for William Cooper ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1677.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Attributed to George Starkey. Cf. Wing.</note>
+                  <note>Advertisements on ([4] p.) at end.</note>
+                  <note>Reproduction of original in Cushing Collection, Yale University Medical School Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Ripley, George, d. 1490? --  Epistle to King Edward IV.</term>
+               <term>Alchemy.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-11</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-11</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2011-01</date>
+            <label>Kayla Ondracek</label>Sampled and proofread</change>
+         <change>
+            <date>2011-01</date>
+            <label>Kayla Ondracek</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="directions">
+            <pb facs="tcp:53838:1"/>
+            <p>
+               <table>
+                  <row>
+                     <cell role="label">
+                        <hi>The Contents.</hi>
+                     </cell>
+                     <cell role="label">
+                        <hi>Directions for the Book-binder.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1. The Author's Preface.</cell>
+                     <cell>1 ſheet, Signat.*</cell>
+                  </row>
+                  <row>
+                     <cell>2. Expoſition upon the Epiſtle to K. <hi>Edw.</hi>
+                     </cell>
+                     <cell>3 ſheets and a half, Signat. A.B.D.E.</cell>
+                  </row>
+                  <row>
+                     <cell>3. — upon the Preface.</cell>
+                     <cell>3 ſheets<g ref="char:punc">▪</g>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>4. —upon the 6 Gates</cell>
+                     <cell rows="2">19 ſheets &amp; a half, from F. to Cc.</cell>
+                  </row>
+                  <row>
+                     <cell>5. and the Experiments of the <hi>Sophick Mercury</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>6. Breviary of Alchymy.</cell>
+                     <cell>2 ſheets, A. B.</cell>
+                  </row>
+                  <row>
+                     <cell>7 An Expoſition upon Sir <hi>G. Ripley</hi>'s Viſion.</cell>
+                     <cell>2 ſheets, A. B.</cell>
+                  </row>
+               </table>
+            </p>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:53838:1"/>
+            <p>AN EXPOSITION Upon Sir <hi>George Ripley's</hi> EPISTLE To King <hi>Edward</hi> IV.</p>
+            <p>Written by <hi>Eirenaeus Philalethes</hi> Anglus, COSMOPOLITA.</p>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>William Cooper,</hi> at the <hi>Pellican</hi> in <hi>Little Britain,</hi> 1677.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:53838:2"/>
+            <pb n="1" facs="tcp:53838:2"/>
+            <head>Sir <hi>GEORGE RIPLEY'S</hi> EPISTLE TO King <hi>Edward</hi> the Fourth, UNFOLDED.</head>
+            <p>
+               <seg rend="decorInit">T</seg>His Epiſtle as it was im<g ref="char:EOLhyphen"/>mediately written to a King, who was in his Generation, both wiſe and valiant; ſo it doth comprize the whole ſecret, both learnedly deſcribed, and yet artificially vailed. Yet as the Author teſtifieth, that in this Epiſtle he doth plainly untie the main knot; So I can, and do teſtifie with him, that there is nothing deſirable for the
+<pb n="2" facs="tcp:53838:3"/>
+true attaining of this Myſtery, both in the Theory and Practick of it, which is not in this ſhort Epiſtle fully taught. This then I intend as a Key to all my former writings, and aſſure you on my faithful word, that I ſhall not ſpeak one word doubtfully or Myſtically, as I have in all my other writings, ſeeming to aver ſome things, which taken without a Fi<g ref="char:EOLhyphen"/>gure, are utterly falſe, which we did only to conceal this Art. This Key therefore we intend not to make common; and ſhall intreat you to keep it ſecret to your ſelf, and not to communicate it, except it be to a ſure friend, who you are confident will not make it publick: And this re<g ref="char:EOLhyphen"/>queſt we make upon very good grounds, knowing that all our writings together, are nothing to this, by reaſon of the contradictions, which we have woven into them, which here is not done in the leaſt meaſure. I ſhall therefore in this Epiſtle take up a new Method, and that different from the former, and ſhall firſt draw up the ſubſtance of the Philoſophy couched in this Epiſtle, into ſeveral con<g ref="char:EOLhyphen"/>cluſions, and after elucidate the ſame.</p>
+            <p>
+               <pb n="3" facs="tcp:53838:3"/>The firſt Concluſion is drawn from the Ninth Stave of this Epiſtle, the eight firſt Staves being only complemen<g ref="char:EOLhyphen"/>tall; and that is, That as all things are multiplied in their kind, ſo may be Me<g ref="char:EOLhyphen"/>talls, which have in themſelves a capa<g ref="char:EOLhyphen"/>city of being tranſmuted, the imperfect into perfect.</p>
+            <p>The ſecond Concluſion in the Tenth Stave is, That the main ground for the poſſibility of tranſmutation, is the poſ<g ref="char:EOLhyphen"/>ſibility of reduction of all Metalls, and ſuch Minerals as are of metallick prin<g ref="char:EOLhyphen"/>ciples, into their firſt Mercurial matter.</p>
+            <p>The third Concluſion is in the Ele<g ref="char:EOLhyphen"/>venth Stave, that among ſo many Metaline and <hi>Mineral Sulphurs,</hi> and ſo many <hi>Mer<g ref="char:EOLhyphen"/>curies</hi> there are but two <hi>Sulphurs</hi> that are related to our work, which <hi>Sul<g ref="char:EOLhyphen"/>phurs</hi> have their <hi>Mercuries</hi> eſſentially u<g ref="char:EOLhyphen"/>nited to them.</p>
+            <p>The fourth Concluſion from the ſame Stave is, That he who underſtands theſe two <hi>Sulphurs</hi> &amp; <hi>Mercuries</hi> aright, ſhal find that the one is the moſt pure red <hi>Sulphur of Gold,</hi> which is <hi>Sulphur in manifeſto,</hi> and <hi>Mercurius in occulto,</hi> and that other
+<pb n="4" facs="tcp:53838:4"/>
+is moſt pure white <hi>Mercury,</hi> which is in<g ref="char:EOLhyphen"/>deed true <hi>Quicksilver in manifeſto,</hi> and <hi>Sulphur in occulto,</hi> theſe are our two Principles.</p>
+            <p>The fifth Concluſion from the Twelfth Stave is, That if a mans Principles be true, and his Operations regular, his Event will be certain, which Event is no other then the true Myſtery.</p>
+            <p>Theſe Concluſions are but few in num<g ref="char:EOLhyphen"/>ber, but of great weight or concern<g ref="char:EOLhyphen"/>ment; the Amplification, Illuſtration and Elucidation therefore of them, will make a ſon of Art truly glad.</p>
+            <div type="stave">
+               <pb n="5" facs="tcp:53838:4"/>
+               <head>
+                  <hi>STAVE</hi> IX. In the Edition 1591: but in <abbr>Eſq</abbr> 
+                  <hi>Aſhmole's Theatrum</hi> it is <hi>Stave</hi> 8.</head>
+               <epigraph>
+                  <q>
+                     <l>But notwithſtanding for peril that may befall,</l>
+                     <l>If I dare not here plainly the knot unbind,</l>
+                     <l>Yet in my writing I will not be ſo myſticall,</l>
+                     <l>But that by ſtudy the true Knowledge you may find</l>
+                     <l>How that each thing is multiplyed in its kind,</l>
+                     <l>And how the likeneſs of Bodies Metalline be tranſmutable,</l>
+                     <l>I will declare, that if you feel me in your mind,</l>
+                     <l>My writing you ſhall find true, and no fal<g ref="char:EOLhyphen"/>ned Fable.</l>
+                  </q>
+               </epigraph>
+               <p>FOr the Firſt; Foraſmuch as it is not for our purpoſe here to invite any to the Art, only intending to lead and guide the ſons of Art; We ſhall not prove the poſſibility of <hi>Alchymy,</hi> by ma<g ref="char:EOLhyphen"/>ny Arguments, having done it abun<g ref="char:EOLhyphen"/>dantly in another Treatiſe. He then that will be incredulous, let him be incredu<g ref="char:EOLhyphen"/>lous;
+<pb n="6" facs="tcp:53838:5"/>
+he that will cavil, let him cavil; But he whoſe mind is perſwaded of the truth of this Art, and of its Dignity, let him attend to what is in the Illuſtration of theſe Five Concluſions diſcovered, and his heart ſhall certainly rejoyce. We ſhall therefore briefly Illuſtrate this 1ſt. Concluſion, and inſiſt there more largely, where the ſecrets of the Art are moſt couched.</p>
+               <p>For this firſt, which concludes in ef<g ref="char:EOLhyphen"/>fect the truth of the Art, and its validity; he that would therein be more ſatisfied in it, let him read the <hi>Testimony of the Philoſophers:</hi> And he that will not be<g ref="char:EOLhyphen"/>lieve the Teſtimony of ſo many men, be<g ref="char:EOLhyphen"/>ing moſt of them men of renown in their own times, he will cavil alſo againſt all other Arguments.</p>
+               <p>We ſhall only hold to <hi>Ripley's</hi> Teſti<g ref="char:EOLhyphen"/>mony in this our Key, who in the Fourth Stave, aſſures the King that at <hi>Lovain</hi> he firſt ſaw the greateſt and moſt perfect ſe<g ref="char:EOLhyphen"/>crets, namely, the two <hi>Elixirs;</hi> and in his following Verſes, craved his confident credit, that he himſelf hath truly found the way of ſecret <hi>Alchymy,</hi> and promi<g ref="char:EOLhyphen"/>ſeth
+<pb n="7" facs="tcp:53838:5"/>
+the diſcovery of it to the King, only upon condition of ſecrecy.</p>
+               <p>And in the Eighth Stave, though he proteſts never to write it by Pen, yet proffers the King at his pleaſure, to ſhew him occularly the Red and White <hi>Elixir,</hi> and the working of them, which he pro<g ref="char:EOLhyphen"/>miſeth will be done for eaſie coſts in time So then, he that will doubt the truth of this Art, muſt account this Famous Au<g ref="char:EOLhyphen"/>thor for a moſt ſimple mad Sophiſter, to write and offer ſuch things to his Prince, unleſs he were able in effect to do what he promiſed; from which imputation, his Writings, and alſo the Hiſtory of him, of his Fame, Gravity, and Worth, will ſufficiently clear him.</p>
+            </div>
+            <div type="stave">
+               <pb n="8" facs="tcp:53838:6"/>
+               <head>
+                  <hi>STAVE</hi> X.</head>
+               <epigraph>
+                  <q>
+                     <l>As the Philoſopher in the Book of Meteors doth write,</l>
+                     <l>The likeneſs of Bodies Metalline be not tranſmutable,</l>
+                     <l>But after he added theſe words of more de<g ref="char:EOLhyphen"/>light,</l>
+                     <l>Without they be reduced to their beginning materiable,</l>
+                     <l>Wherefore ſuch Bodies which in Nature be liquiable,</l>
+                     <l>Mineral &amp; Metalline may be Mercurizate,</l>
+                     <l>Conceive you may this Science is not opi<g ref="char:EOLhyphen"/>nionable,</l>
+                     <l>But very true, by <hi>Raymond</hi> and others determinate.</l>
+                  </q>
+               </epigraph>
+               <p>WE come to the ſecond Concluſion; the ſubſtance of which is, <hi>that all Metalls, and Bodies of Metalline Princi<g ref="char:EOLhyphen"/>ples, may be reduced to their firſt Mercu<g ref="char:EOLhyphen"/>rial Matter;</hi> And this is the main and chief ground for the poſſibility of Tranſ<g ref="char:EOLhyphen"/>mutation. On this we muſt inſiſt largly and fully, for (truſt me) this is the very hinge on which our ſecrets hang.</p>
+               <p>
+                  <pb n="9" facs="tcp:53838:6"/>
+                  <hi>Firſt,</hi> Then know that all <hi>Metalls,</hi> and ſeveral <hi>Minerals</hi> have <hi>Mercury</hi> for their next matter, to which (for the moſt part, nay indeed always) there adheres, and is Con-coagulated an external <hi>Sulphur,</hi> which is not <hi>Metalline,</hi> but diſtinguiſh<g ref="char:EOLhyphen"/>able from the internal Kernel of the <hi>Mer<g ref="char:EOLhyphen"/>cury.</hi>
+               </p>
+               <p>This <hi>Sulphur</hi> is not wanting even in common <hi>Argent Vive,</hi> by the Mediation of which, it may be precipitated into the form of a drie Powder: Yea, and by a Liquor well known to us, (though nothing helping the Art of Tranſmuta<g ref="char:EOLhyphen"/>tion) it may be ſo fixed, that it may en<g ref="char:EOLhyphen"/>dure all Fires, the Teſt and Coppel, and this without the addition of any thing to it, but the Liquor (by virtue where<g ref="char:EOLhyphen"/>of it is fixed) coming away intire, both in its <hi>Pondus</hi> and Virtue. This <hi>Sulphur</hi> in Gold and Silver is pure, in the other Metalls leſs pure; Therefore in Gold and Silver it is fixed, in others it is fugitive; in all the Metalls it is coagulated, in <hi>Mercury</hi> or <hi>Argent Vive,</hi> it is coagulable, in <hi>Gold, Silver</hi> and <hi>Mercury;</hi> this <hi>Sulphur</hi> is ſo ſtrongly united, that the Antients did
+<pb n="10" facs="tcp:53838:7"/>
+ever judge <hi>Sulphur</hi> and <hi>Mercury,</hi> to be all one; but we by the help of a Liquor, the Invention of which in theſe parts of the world we owe to <hi>Paracelſus,</hi> (though among the <hi>Moors</hi> and <hi>Arabians,</hi> it hath been, and is (at this day) commonly known to the acuter ſort of <hi>Chymiſts.</hi>) By this I ſay, we know that the <hi>Sul<g ref="char:EOLhyphen"/>phur</hi> which is in <hi>Mercury</hi> coagulable, and in the <hi>Metals</hi> coagulated, is external to the Internal nature of <hi>Mercury,</hi> and may may be ſeparated in the form of a tincted Metallick Oyl, the remaining <hi>Mercury</hi> be<g ref="char:EOLhyphen"/>ing then void of all <hi>Sulphur,</hi> ſave that which may be called its Inward or Cen<g ref="char:EOLhyphen"/>tral <hi>Sulphur,</hi> and is now incoagulable of it ſelf, (though by our <hi>Elixir</hi> it is to be co<g ref="char:EOLhyphen"/>agulated) but of it ſelf, it can neither be fixt nor precipitated, nor ſublimed, but remains un-altered in all corroſive wa<g ref="char:EOLhyphen"/>ters, and in all digeſtions of heat. One way then of <hi>Mercury</hi> Azating all <hi>Metals</hi> and <hi>Minerals,</hi> is by the Liquor <hi>Alchaheſt,</hi> which out of all ſuch Bodies as have <hi>Mer<g ref="char:EOLhyphen"/>cury</hi> in their Conſtitution, can ſeparate a running <hi>Argent Vive,</hi> from which <hi>Argent vive</hi> all its <hi>Sulphur</hi> is then ſeparated, ſave
+<pb n="11" facs="tcp:53838:7"/>
+that only which is Internal and Central to the <hi>Mercury,</hi> which Internal <hi>Sulphur</hi> of <hi>Mercury</hi> no corroſive can touch: Next to this way of univerſal Reduction, there are alſo ſome other particular ways by which <hi>Saturn, Jupiter, Antimony,</hi> yea even <hi>Venus</hi> and <hi>Mars</hi> may be reduced into a running <hi>Quick-ſilver,</hi> by the help of Salts, which becauſe (being corporeal) they pierce not ſo radically as the fore-named Liquor doth; they therefore do not ſpoil the <hi>Mercury</hi> of its <hi>Sulphur,</hi> but that as much <hi>Sulphur</hi> as there in is Common <hi>Mercury;</hi> ſo much alſo there in is this <hi>Mercury</hi> of the Bodies, only this <hi>Mercury</hi> hath ſpe<g ref="char:EOLhyphen"/>cificated qualities according to the na<g ref="char:EOLhyphen"/>ture of the <hi>Metal</hi> or <hi>Mineral,</hi> from which it was extracted; and for that reaſon, (as to our work which is to diſſolve per<g ref="char:EOLhyphen"/>fect Species of <hi>Metals,</hi>) it hath no more virtue then common <hi>Argent Vive.</hi> There is than but one only humidity, which is applicable unto our Work, which cer<g ref="char:EOLhyphen"/>tainly is neither of <hi>Saturn</hi> nor <hi>Venus,</hi> nor is drawn from any thing, which nature hath formed, but from a ſubſtance com<g ref="char:EOLhyphen"/>pounded by the Art of the Philoſopher.
+<pb n="12" facs="tcp:53838:8"/>
+So then, if a <hi>Mercury</hi> drawn from the Bodies, have not only the ſame deficien<g ref="char:EOLhyphen"/>cy of heat and ſuperfluity of <hi>faeces</hi> as Common <hi>Mercury</hi> hath, but alſo a diſtinct ſpecificated form, it muſt (by reaſon of this its form) be ſo much the farther re<g ref="char:EOLhyphen"/>mote from our <hi>Mercury,</hi> then common <hi>Argent Vive</hi> is.</p>
+               <p>Our Art therefore is to compound two Principles, (one in which the <hi>Salt,</hi> and another in which the <hi>Sulphur</hi> of Nature doth abound,) which are not yet perfect, nor yet totally imperfect, and (by con<g ref="char:EOLhyphen"/>ſequence) may therefore (by our Art) be changed or exalted, which that (which is totally perfect) cannot be; and then by Common <hi>Mercury</hi> to extract not the <hi>Pon<g ref="char:EOLhyphen"/>dus,</hi> but the Coeleſtial virtue out of the compound; which virtue (being Fermen<g ref="char:EOLhyphen"/>tal) begets in the common <hi>Mercury</hi> an Off-ſpring more noble then it ſelf, which is our true <hi>Hermaphrodite,</hi> which will congeal it ſelf, and diſſolve the Bodies: Obſerve but a grain of Corn, in which, ſcarce a diſcern<g ref="char:EOLhyphen"/>able part is Sprout, and this Sprout, if it were out of the Grain, would die in a mo<g ref="char:EOLhyphen"/>ment; the whole grain is ſown, yet the
+<pb n="13" facs="tcp:53838:8"/>
+Sprout only produceth the Herb: So is it in our Body, the Fermental Spirit that is in it, is ſcarce a third part of the whole, the reſt is of no value, yet all is joyned, (in the compoſition,) and the <hi>faeculent corpo<g ref="char:EOLhyphen"/>reous</hi> parts of the Body comes away with the dregs of the <hi>Mercury.</hi> But beyond the example or ſimilitude given of a grain of Corn, it may be obſerved that the hid<g ref="char:EOLhyphen"/>den and ſpiritual virtue of this our Body, doth purge and purifie its Matrix of wa<g ref="char:EOLhyphen"/>ter, in which it is ſown; that is, it makes it caſt forth a great quantity of filthy earth, and a great deal of Hydropical Saline moiſture. For inſtance, make thy waſh<g ref="char:EOLhyphen"/>ings (for a tryal) with pure and clean Fountain water; weigh firſt a Pint of the ſame water, and take the exact weight of it, then waſh thy compound 8 or 10 Eagles (or times,) ſave all the <hi>faeces,</hi> weigh thy Body and <hi>Mercury</hi> exactly, weigh thy <hi>faeces</hi> being very dry, then Diſtil or Sublime all that will Sublime, a very little quick <hi>Mercury</hi> will aſcend, then put the reſidue of the <hi>faeces</hi> in a Crucible, ſet them on the Coals, and all the faeculency of the <hi>Mercury</hi> will burn like a Coal, yet
+<pb n="14" facs="tcp:53838:9"/>
+without fume; when that is all conſu<g ref="char:EOLhyphen"/>med, weigh the remaining <hi>faeces,</hi> and thou ſhalt find them to be two thirds of thy Body, the other third being in the <hi>Mercury;</hi> weigh the <hi>Mercury</hi> which thou Sublimeſt, and the <hi>Mercury</hi> prepared by it ſelf, and the weight of both will not recompence thy <hi>Mercuries</hi> weight by far: So then, boyl up thy water to a skin, in which thou madeſt thy Lotions, for that is a thick water; and in a cool place thou ſhalt have Cryſtals, which is the Salt of <hi>Mercury</hi> Crude, and no way fit for Me<g ref="char:EOLhyphen"/>dicines; Yet it is a content for the Artiſts to ſee how the Heterogeneities of <hi>Mer<g ref="char:EOLhyphen"/>cury</hi> are diſcovered, which no Art ſave the Liquor of <hi>Alchaheſt</hi> can do, and that in a deſtructive, not a generative way as this is; for this operation of ours is made between Male and Female, within their own kind, between which there is a Fer<g ref="char:EOLhyphen"/>ment which effecteth that which no other thing in the world could do. In all truth I tell you, that if you ſhould take our imperfect compound Body, <hi>per ſe,</hi> and <hi>Mercury per ſe,</hi> and Ferment them alone, though you might bring out of the one
+<pb n="15" facs="tcp:53838:9"/>
+a moſt pure <hi>Sulphur,</hi> and out of the other <hi>Mercury</hi> of <hi>Mercury,</hi> which is the Nut of <hi>Mercury,</hi> yet with theſe thou couldeſt effect nothing, for Fermental virtue is the wonder of the world, and it is by it, that water becomes Herbs, Trees, and Plants, Fruits, Fleſh, Blood, Stones, Minerals, and every thing; ſeek then for it only, and rejoyce in it, as in a deſervedly invalu<g ref="char:EOLhyphen"/>able treaſure: Now know, that Fermen<g ref="char:EOLhyphen"/>tation works or ferments not out of kind, neither do Salts Ferment Metals. Wilt thou then know whence it is that ſome fixt Alcalies do extract a <hi>Mercury</hi> out of <hi>Minerals,</hi> and out of the more imperfect Metals? Conſider then, that in all theſe Bodies the <hi>Sulphur</hi> is not ſo radically mixt and united, as it is in Silver and Gold. Now <hi>Sulphur</hi> is of kin to divers <hi>Alcalies,</hi> that are extraordinarily diſſolved or mel<g ref="char:EOLhyphen"/>ted with it, and by this means the <hi>Mer<g ref="char:EOLhyphen"/>curial</hi> parts are disjoyned, and the <hi>Ar<g ref="char:EOLhyphen"/>gent vive</hi> is by fire ſeparated. The <hi>Mercury</hi> thus ſeparated, is ſpoiled of its <hi>Sulphur,</hi> when as indeed there needs, or is requi<g ref="char:EOLhyphen"/>red only a depuration of the <hi>Sulphur</hi> by ſeparating the impure from the pure;
+<pb n="16" facs="tcp:53838:10"/>
+but theſe Salts having ſeparated the <hi>Sul<g ref="char:EOLhyphen"/>phur,</hi> do leave the <hi>Mercury</hi> worſe; that is, more eſtranged from a Metallick na<g ref="char:EOLhyphen"/>ture than it was before; for in its Com<g ref="char:EOLhyphen"/>poſition that <hi>Sulphur</hi> of <hi>Saturn</hi> will not burn, for though it be Sublimed, Calci<g ref="char:EOLhyphen"/>ned, made Sugar or Vitrified, yet by Fire and Fluxes it ſtill returns to the ſame it was in before; but its <hi>Sulphur</hi> being (as is aforeſaid,) ſeparated, will take fire if joyned with Salt-peter, even as com<g ref="char:EOLhyphen"/>mon <hi>Sulphur</hi> doth, ſo that the Salts act on the <hi>Sulphur</hi> of which they rob the <hi>Mer<g ref="char:EOLhyphen"/>cury,</hi> but on the <hi>Mercury</hi> they act not for want of Ferment, which is not to be found, but only amongſt Homogeneal things. Therefore the Ferment of Bread Leavens not a Stone, nor doth the Fer<g ref="char:EOLhyphen"/>ment of any Animal or Vegetable, Fer<g ref="char:EOLhyphen"/>ment a Metal or Mineral. So then, though out of Gold thou mighteſt obtain a <hi>Mer<g ref="char:EOLhyphen"/>cury</hi> by the help of the Liquor of the firſt <hi>Ens</hi> of Salt, yet that <hi>Mercury</hi> would never accompliſh our work: whereas on the other ſide <hi>Mercury</hi> made out of Gold by our <hi>Mercury,</hi> though there be three parts of our <hi>Mercury</hi> to one of Gold:
+<pb n="17" facs="tcp:53838:10"/>
+This <hi>Mercury</hi> I ſay, will (by continual digeſtion) accompliſh the whole work; marvel not then, that our <hi>Mercury</hi> is more powerful, which is prepared by <hi>Mercury:</hi> For certainly the Ferment, which cometh between the compound Body and the water, cauſeth a death and a regenera<g ref="char:EOLhyphen"/>tion; it doth that, which nothing in the world can do: Beſides it ſevers from <hi>Mer<g ref="char:EOLhyphen"/>cury</hi> a terreſtreity which burns like a coal, and an Hydropical humour melting in common water, but the reſidue is acua<g ref="char:EOLhyphen"/>ted by a Spirit of Life, which is our true embryonated <hi>Sulphur</hi> of our water, not viſible, yet working viſibly. We con<g ref="char:EOLhyphen"/>clude then, that all operations for our <hi>Mercury,</hi> but by common <hi>Mercury,</hi> and our Body according to our Art, are erro<g ref="char:EOLhyphen"/>neous, and will never produce our Myſte<g ref="char:EOLhyphen"/>rie, although they be otherwiſe, <hi>Mercu<g ref="char:EOLhyphen"/>ries</hi> never ſo wonderfully made. For as the Author of the <hi>New light,</hi> ſaith, <hi>No Water in any Iſland of the Philoſophers was wholſom, but that which was drawn out of the reigns of</hi> Sol <hi>and</hi> Luna. Wilt thou know what that means, <hi>Mercury</hi> in its <hi>pondus</hi> and incombuſtibility is <hi>Gold fugi<g ref="char:EOLhyphen"/>tive,</hi>
+                  <pb n="18" facs="tcp:53838:11"/>
+our Body in its purity is called the <hi>Philoſophers Luna,</hi> being far more pure than the imperfect Metals, and its <hi>Sulphur</hi> alſo as pure as the <hi>Sulphur</hi> of <hi>Sol,</hi> not that it is indeed <hi>Luna,</hi> for it abides not in the fire. Now in the compoſition of theſe three; Firſt, our common <hi>Mercury,</hi> and the two Principles of our compound there inter<g ref="char:EOLhyphen"/>cedes the Ferment of <hi>Luna,</hi> out of which though it be a Body, proceeds yet a ſpe<g ref="char:EOLhyphen"/>cificated odour: yea, and oft the <hi>Pon<g ref="char:EOLhyphen"/>dus</hi> of it is diminiſhed: If the Compound be much waſht, after it is ſufficiently clean. So then, the Ferment of <hi>Sol</hi> and <hi>Luna</hi> intercedes in our compoſition, which Ferment begets an off-ſpring more noble then it ſelf a thouſand fold; where<g ref="char:EOLhyphen"/>as ſhouldſt thou work on our compound body by a violent way of Salts, thou ſhouldſt have the <hi>Mercury,</hi> by far leſs noble then the Body, the <hi>Sulphur</hi> of the Body being ſeparated, and not exalted by ſuch a progreſs.</p>
+            </div>
+            <div type="stave">
+               <pb n="19" facs="tcp:53838:11"/>
+               <head>
+                  <hi>STAVE</hi> XI.</head>
+               <epigraph>
+                  <q>
+                     <l>In the ſaid Book the Philoſopher ſpeaketh alſo,</l>
+                     <l>Therein if it pleaſe Your Highneſs for to read,</l>
+                     <l>Of divers <hi>Sulphurs,</hi> and eſpecially of two,</l>
+                     <l>And of two <hi>Mercuries</hi> joyned to them in<g ref="char:EOLhyphen"/>deed,</l>
+                     <l>Whereby he doth true underſtanders lead,</l>
+                     <l>To the knowledge of the Principles which be only true,</l>
+                     <l>Both Red, Moiſt, Pure, and White, as I have eſpied,</l>
+                     <l>Which be nevertheleſs found but of very few.</l>
+                  </q>
+               </epigraph>
+               <p>WE now come to the Third Concluſi<g ref="char:EOLhyphen"/>on, which is, that among all Metal<g ref="char:EOLhyphen"/>line and Mineral <hi>Sulphurs</hi> there are only Two that belong to our Work; which Two have their <hi>Mercuries</hi> eſſentially uni<g ref="char:EOLhyphen"/>ted with them: This is the truth of our ſecrets, though we (to ſeduce the un<g ref="char:EOLhyphen"/>wary) do ſeem to aver the contrary; for do not think that (becauſe we do inſinu<g ref="char:EOLhyphen"/>ate two ways, therefore) we really mean
+<pb n="20" facs="tcp:53838:12" rendition="simple:additions"/>
+as we ſay, for verily (as witneſſeth <hi>Rip<g ref="char:EOLhyphen"/>ley,</hi>) There is no true Principle but one, nor have we but one matter, nor but one way of working upon that matter, nor but one regimen of heat, and one linear way of proceeding.</p>
+               <p>Theſe two <hi>Sulphurs</hi> as they are Prin<g ref="char:EOLhyphen"/>ciples of our Work, they ought to be Homogeneal, for it is only Gold Spiritual that we ſeek; Firſt White, then Red, which Gold is no other then that which the vulgar ſee, but they know not the hidden Spirit that is in it. This Principle wants nothing but compoſition, and this compoſition muſt be made with our other crude white <hi>Sulphur,</hi> which is nothing but <hi>Mercury</hi> vulgar, by frequent cohoba<g ref="char:EOLhyphen"/>tion of it upon our Hermaphroditical bo<g ref="char:EOLhyphen"/>dy, ſo long till it become a fiery water.</p>
+               <p>Know therefore, that <hi>Mercury</hi> hath in it ſelf a <hi>Sulphur,</hi> which being un-active, our Art is to multiply in it a living active <hi>Sulphur,</hi> which comes out of the loins of our Hermaphroditical body, whoſe Fa<g ref="char:EOLhyphen"/>ther is a Metal, and his Mother a Mine<g ref="char:EOLhyphen"/>ral; Take then the moſt beloved Daugh<g ref="char:EOLhyphen"/>ter of <hi>Saturn,</hi> whoſe Arms are a <hi>Circle Ar<g ref="char:EOLhyphen"/>gent,</hi>
+                  <pb n="21" facs="tcp:53838:12" rendition="simple:additions"/>
+and on it a <hi>Sable Croſs on a Black Field,</hi> which is the ſignal note of the great world, eſpouſe her to the moſt war<g ref="char:EOLhyphen"/>like God, who dwells in the houſe of <hi>A<g ref="char:EOLhyphen"/>ries,</hi> and thou ſhalt find the Salt of Na<g ref="char:EOLhyphen"/>ture, with this Salt acuate thy water, as thou beſt knoweſt, and thou ſhalt have the Lunary bath in which the Sun will be amended.</p>
+               <p>And in all truth I aſſure thee, that al<g ref="char:EOLhyphen"/>though thou hadſt our Body Mercuriali<g ref="char:EOLhyphen"/>zed (without the addition of <hi>Mercury,</hi> or of the <hi>Mercury</hi> of any of the Metals) made <hi>per ſe,</hi> that is, without the addition of <hi>Mercury,</hi> it would not be in the leaſt profitable unto thee, for it is our <hi>Mercury</hi> only, which hath a Celeſtial form and power, which it receives, not only, nor ſo much from the Compound Body or Principles, as from the Fermental virtue which proceeds from the compoſition of both the Body and the <hi>Mercury,</hi> by which is produced a wonderful Creature: So then let all thy care be to marry <hi>Sulphur,</hi> with <hi>Sulphur,</hi> that is our <hi>Mercury</hi> which is impregnated, which <hi>Sulphur</hi> muſt be eſpouſed with our <hi>Sol,</hi> then haſt thou two
+<pb n="22" facs="tcp:53838:13"/>
+                  <hi>Sulphurs</hi> married, and two <hi>Mercuries</hi> of one off-ſpring, whoſe Father is the Sun, and Moon the Mother.</p>
+               <p>The Fourth Concluſion makes all per<g ref="char:EOLhyphen"/>fectly plain which hath been ſaid before; namely, that theſe two <hi>Sulphurs</hi> are, the one moſt pure Red <hi>Sulphur of Gold,</hi> and the other of moſt pure clean White <hi>Mer<g ref="char:EOLhyphen"/>cury.</hi>
+               </p>
+               <p>Theſe are our two <hi>Sulphurs;</hi> the one appears a coagulated Body, &amp; yet carries its <hi>Mercury</hi> in its belly: the other is in all its proportions true <hi>Mercury,</hi> yet very clean, and carries its <hi>Sulphur</hi> within its ſelf, though hidden under the form and fluxibility of <hi>Mercury.</hi>
+               </p>
+               <p>Sophiſters are (here) in a Labyrinth, for becauſe they are not acquainted with Metalline love, they work in things al<g ref="char:EOLhyphen"/>together heterogeneal,; or if they work upon Metalline Bodies, they yet either joyn Males with Males, or elſe Females with Females, or elſe they work on each alone; or elſe they take Males which are charged with natural inabilities, and Fe<g ref="char:EOLhyphen"/>males whoſe Matrix is vitiated. Thus by their own inconſideration they fruſtrate
+<pb n="23" facs="tcp:53838:13" rendition="simple:additions"/>
+their own hopes, and then caſt the blame upon the Art, when as indeed it is only to be imputed to their own folly, in not underſtanding the Philoſophers.</p>
+               <p>I know many pitiful Sophiſters do dote on many Stones, Vegetable, Animal, and Mineral; and ſome to thoſe add the fiery Angelical, Paradaical Stone, which they call a Wonder-working Eſſence; and becauſe the mark they aim at is ſo great, the ways alſo by which they would attain their ſcope, they make alſo agreeable, that is a double way; One way they call <hi>Via Humida,</hi> the other they call <hi>Via Sic<g ref="char:EOLhyphen"/>ca,</hi> (to uſe their languages:) The latter way is the <hi>Labyrinthian path,</hi> which is fit only for the great ones of the earth to tread in; the other the <hi>Daedalean Path,</hi> an eaſie way of ſmall coſt for the poor of the world to enterprize.</p>
+               <p>But this I know, and can teſtifie, that there is but one way, and but only one <hi>Regimen,</hi> no more colours than ours; and what we ſay or write otherwiſe, is but to deceive the unwary: For if every thing in the world ought to have its pro<g ref="char:EOLhyphen"/>per cauſes, there cannot be any one end
+<pb n="24" facs="tcp:53838:14"/>
+which is produced from two wayes of working on diſtinct Principles.</p>
+               <p>Therefore we proteſt, and muſt again admoniſh the Reader, that (in our for<g ref="char:EOLhyphen"/>mer writings) we have concealed much, by reaſon of the two ways we have inſi<g ref="char:EOLhyphen"/>nuated, which we will briefly touch; There is one Work of ours, which is the <hi>Play of Children, and the Work of Women,</hi> and that is Decoction by the Fire; and we proteſt that the loweſt degree of this our work, is, that the matter be ſtirred up, and may hourly circulate without fear of breaking of the Veſſel, which for this reaſon ought to be very ſtrong; but our lineal Decoction is an Internal Work, which advances every day &amp; hour, and is diſtinct from that of outward heat, and therefore is both inviſible and inſenſible. In this our work, our <hi>Diana</hi> is our body when it is mixed with the water, for then all is called the Moon; for <hi>Laton</hi> is whi<g ref="char:EOLhyphen"/>tened, and the Woman bears rule: our <hi>Diana</hi> hath a wood, for in the firſt days of the Stone, our Body after it is whiten<g ref="char:EOLhyphen"/>ed grows vegetably. In this wood are at the laſt found two Doves; for about
+<pb n="25" facs="tcp:53838:14"/>
+the end of three weeks the Soul of the <hi>Mercury</hi> aſcends with the Soul of the diſ<g ref="char:EOLhyphen"/>ſolved Gold; theſe are infolded in the everlaſting Arms of <hi>Venus,</hi> for in this ſea<g ref="char:EOLhyphen"/>ſon the confections are all tincted with a pure green colour; Theſe Doves are cir<g ref="char:EOLhyphen"/>culated ſeaven times, for in ſeaven is perfection, and they are left dead, for they then riſe and move no more; our Body is then black like to a Crows Bill, for in this operation all is turned to Pow<g ref="char:EOLhyphen"/>der, blacker than the blackeſt. Such paſſages as theſe we do oftentimes uſe when we ſpeak of the Preparation of our <hi>Mercury;</hi> and this we do to deceive the ſimple, and it is alſo for no other end that we confound our operations, ſpea<g ref="char:EOLhyphen"/>king of one, when we ought to ſpeak of another; For if this Art were but plainly ſet down, our operations would be contemptible even to the fooliſh. Therefore believe me in this, that be<g ref="char:EOLhyphen"/>cauſe our works are truly natural, we therefore do take the liberty to confound the Philoſophers work with that which is purely Natures work, that ſo we might keep the ſimple in ignorance con<g ref="char:EOLhyphen"/>cerning
+<pb n="26" facs="tcp:53838:15"/>
+our true Vinegre, which being unknown, their labour is wholly loſt.</p>
+               <p>Let me then (for a cloſe) ſay only thus much; Take our Body which is Gold, and our <hi>Mercury</hi> which is ſeven times acuated by the marriage of it with our Hermaphroditical body which is a <hi>Chaos,</hi> and it is the ſplendor of the Soul of the God <hi>Mars,</hi> in the Earth and water of <hi>Saturn;</hi> mix theſe two in ſuch a <hi>Pondus</hi> as Nature doth require: in this mixture you have our inviſible Fires, for in the Water, or in the <hi>Mercury</hi> is an active <hi>Sulphur</hi> or Mineral Fire, and in the Gold a dead, paſſive, but yet actual <hi>Sulphur;</hi> Now when that <hi>Sulphur</hi> of the Gold is ſtirred up and quickned, there is made between the Fire of Nature which is in the Gold and the Fire againſt Nature, which is in the <hi>Mercury,</hi> a Fire partly of the one, and partly of the other, for it partakes of both; and by theſe two Fires thus united into one, is cauſed both Corruption (which is Humiliation) and Generation, (which is Glorification and Perfection.) Now know that God only governs this way of the Internal
+<pb n="27" facs="tcp:53838:15"/>
+Fire, Man being ignorant of the progreſs thereof, only by his Reaſon beholding its operations, he is able to diſcern that it is hot; that is, that it doth perform the actions of heat, which is Decoction. In this Fire there is no Sublimation, for Sub<g ref="char:EOLhyphen"/>limation is an Exaltation; But this Fire is ſuch an Exaltation, that it is Perfecti<g ref="char:EOLhyphen"/>on it ſelf, and that beyond it is no pro<g ref="char:EOLhyphen"/>greſs.</p>
+               <p>All our Work then is only to multiply this Fire, that is, to circulate the Body, ſo long until the Virtue of the <hi>Sulphur</hi> be augmented. Again, this Fire is an in<g ref="char:EOLhyphen"/>viſible Spirit, and therefore not having Dimenſions as neither above nor below, but every where in the Sphere of the activity of our Matter in the Veſſel; So that though the material viſible ſubſtance do ſublime and aſcend by the action of the Elemental heat, yet this Spiritual Virtue is always as well in that which ſubſides in the bottom, as in that which is in the upper part of the Veſſel. For it is as the Soul in the Body of Man, which is every where at the ſame time, and yet bounded or terminated in none.</p>
+               <p>
+                  <pb n="28" facs="tcp:53838:16"/>This is the Ground of one Sophiſm of ours, <hi>(viz.)</hi> when we ſay, that in this true Philoſophical Fire there is no Subli<g ref="char:EOLhyphen"/>mation; for the Fire is the Life, and the Life is a Soul, which is not at all ſubject to the dimenſions of Bodies: Hence alſo it is, that the opening of the Glaſs, or cooling of the ſame during the time of Working, kills the Life or Fire that is in this ſecret <hi>Sulphur,</hi> and yet not one Grain of the matter is loſt. The Elemental Fire then is that which any Child knows how to kindle and govern, but it is the Phi<g ref="char:EOLhyphen"/>loſopher only that is able to diſcern the true inward Fire, for it is a wonderful thing which acts in the Body, yet is no part of the Body. Therefore the Fire is a Coeleſtial Virtue, it is uniformed; that is, it is always the ſame until the period of its Operation is come; and then be<g ref="char:EOLhyphen"/>ing come to perfection, it acts no more, for every Agent, when the end of its action is come, then reſts.</p>
+               <p>Remember then, that when we ſpeak of our Fire which ſublimes not, that thou do not miſtake, and think that the moi<g ref="char:EOLhyphen"/>ſture of the Compound which is within
+<pb n="29" facs="tcp:53838:16"/>
+the Glaſs, ought not to Sublime, for that it muſt do unceſſantly; but the Fire that ſublimes not is the Metalline love, which is above, and below, and in all places alike. Now then for a cloſe to all that hath been ſaid, learn, and be well advi<g ref="char:EOLhyphen"/>ſed what matter you take in hand, for an evil Crow lays an evil Egg, as the Proverb hath it; Let thy Seed be pure, and thy Matrix alſo pure, then ſhalt thou ſee a Noble Off-ſpring: Let the Fire without be ſuch, as in which our Con<g ref="char:EOLhyphen"/>fections may play to and fro unceſſantly, and this (in a few days) will produce that which thou moſt longeſt for, the <hi>Crows Bill.</hi> Continue then thy Decocti<g ref="char:EOLhyphen"/>on, and in an hundred and thirty days thou ſhalt ſee the <hi>White Dove,</hi> and in ninety days more the <hi>Sparkling Cheru<g ref="char:EOLhyphen"/>bim.</hi>
+               </p>
+            </div>
+            <div type="stave">
+               <pb n="30" facs="tcp:53838:17"/>
+               <head>
+                  <hi>STAVE</hi> XII.</head>
+               <epigraph>
+                  <q>
+                     <l>And theſe Two things be beſt, he addeth anon,</l>
+                     <l>For him that worketh the <hi>Alchymy</hi> to take:</l>
+                     <l>Our Gold and our Silver therewith to make all one,</l>
+                     <l>Wherefore I ſay, who will our Pearl and Ruby make,</l>
+                     <l>The ſaid Principles look that he not for<g ref="char:EOLhyphen"/>ſake:</l>
+                     <l>For at the beginning, if the Principles be true;</l>
+                     <l>And if ſo be by craft he can them alſo take,</l>
+                     <l>In th' end truly his work he ſhall not rue.</l>
+                  </q>
+               </epigraph>
+               <p>THus come we to the laſt Concluſion, which is, that if a Mans Operations be Regular, and his Principles true, his end will be certain, <hi>(viz.)</hi> the Maſtery.</p>
+               <p>O Fools and Blind that do not conſi<g ref="char:EOLhyphen"/>der how each thing in the world hath his proper Cauſe and Progreſs in Operation; Think you, if a Seaman ſhould with a gallant Coach, intend to Sail to any place beyond Sea, he would not find his at<g ref="char:EOLhyphen"/>tempt
+<pb n="31" facs="tcp:53838:17"/>
+to be fooliſh; Or if with a Ship gallantly furniſhed, he ſhould Row at Random, he may not ſooner ſtumble on an infortunate Rock, then arrive at the golden Coaſt: Such fools are they who ſeek our ſecret in trivial matters, and yet hope to find the Gold of <hi>Ophir.</hi>
+               </p>
+            </div>
+            <div type="rules">
+               <head>For the more exact Guiding of your Pra<g ref="char:EOLhyphen"/>ctice, take notice of theſe Twenty <hi>Rules</hi> following.</head>
+               <div type="rule">
+                  <head>
+                     <hi>Rule.</hi> I.</head>
+                  <p>Whatever any Sophiſter may ſuggeſt unto you, or you may read in any So<g ref="char:EOLhyphen"/>phiſtical Author; yet let none take you from this ground, <hi>(viz.)</hi> That as the end you look for is Gold: ſo let Gold be the ſubject on which you work, and none other.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> II.</head>
+                  <p>Let none deceive you with telling you, that our <hi>Gold</hi> is not common, but Philoſophical; for <hi>common Gold</hi> is dead, which is true: But as we order it, there is made a quickening of it, as a grain of Corn in the Earth is quickened.</p>
+                  <p>
+                     <pb n="32" facs="tcp:53838:18"/>So then in our work, after ſix Weeks, <hi>Gold</hi> that was dead, becomes quick, li<g ref="char:EOLhyphen"/>ving, and ſpermatical; and in our com<g ref="char:EOLhyphen"/>poſition, it may be called <hi>Our Gold,</hi> be<g ref="char:EOLhyphen"/>cauſe it is joyn'd with an Agent that will certainly quicken it: So a Condemned Man, is called a Dead Man, though at preſent living.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> III.</head>
+                  <p>Beſides Gold, which is the Body or Male, you muſt have another Sperm, which is the Spirit and Soul; or Female, and this is <hi>Mercury,</hi> in Flux and Form like to common <hi>Argent Vive,</hi> yet more clean and pure.</p>
+                  <p>There are many, who inſtead of <hi>Mer<g ref="char:EOLhyphen"/>cury,</hi> will have ſtrange Waters or Liquors, which they ſtile by the name of <hi>Philo<g ref="char:EOLhyphen"/>ſophical Mercury;</hi> Be not deceived by them, for what a Man ſows, that he muſt look to reap: If thou ſhalt ſow thy Bo<g ref="char:EOLhyphen"/>dy in any Earth, but that which is Me<g ref="char:EOLhyphen"/>talline and Homogeneal to it; thou ſhalt inſtead of a <hi>Metalline Elixir,</hi> reap an unprofitable <hi>Calx,</hi> which will be of no value.</p>
+               </div>
+               <div type="rule">
+                  <pb n="33" facs="tcp:53838:18"/>
+                  <head>
+                     <hi>Rule</hi> IV.</head>
+                  <p>Our <hi>Mercury</hi> is in ſubſtance one with common <hi>Argent Vive,</hi> but far different in Form; For it hath a Form Coeleſtial, Fiery, and of excellent Virtue: and this is the Nature which it receives by our Artificial Preparation.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> V.</head>
+                  <p>The whole Secret of our Preparation, is, that thou take that Mineral which is next of kin to Gold, and to <hi>Mercury;</hi> Im<g ref="char:EOLhyphen"/>pregnate this with Volatile Gold, which is found in the reins of <hi>Mars,</hi> with this purifie your <hi>Mercury</hi> until ſeaven times are paſt, then it is fitted for the Kings Bath.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> VI.</head>
+                  <p>Yet know, that from ſeaven times to ten, the <hi>Mercury</hi> is made better and bet<g ref="char:EOLhyphen"/>ter, and is more active, being by each Preparation acuated by our true <hi>Sulphur;</hi> which if it exceed in number of Prepa<g ref="char:EOLhyphen"/>rations, becomes too fiery; which in<g ref="char:EOLhyphen"/>ſtead of diſſolving the Body, will Coa<g ref="char:EOLhyphen"/>gulate it ſelf.</p>
+               </div>
+               <div type="rule">
+                  <pb n="34" facs="tcp:53838:19"/>
+                  <head>
+                     <hi>Rule</hi> VII.</head>
+                  <p>This <hi>Mercury</hi> thus acuated, is after to be diſtilled in a Glaſs retort twice or thrice; and that for this reaſon, becauſe ſome Atoms of the Body may be in it, which were inſenſibly left in the Preparation of the <hi>Mercury,</hi> afterwards it is to be cleanſed well with Vinegar and <hi>Sal-armo<g ref="char:EOLhyphen"/>niack,</hi> then is it fit for the work.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> VIII.</head>
+                  <p>Chuſe your Gold for this work pure and clean from any mixture: if it be not ſo when you buy it, make it ſo by Purgation; then let it be made fine, ei<g ref="char:EOLhyphen"/>ther by Filing, Malleating, Calcining with Corroſives, or any other way, by which it may be made moſt ſubtile.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> IX.</head>
+                  <p>Now come to your mixture, in which take of the aforeſaid Body ſo choſen and prepared, one Ounce of <hi>Mercury,</hi> as is above taught animated, two Ounces or three at the moſt, mix them in a Marble which may be warmed ſo hot as water will heat it; grind both together till they be well incorporated, then waſh the mix<g ref="char:EOLhyphen"/>ture
+<pb n="35" facs="tcp:53838:19"/>
+with Vinegar and Salt till it be very pure; And laſtly, Dulcifie it with warm water, and dry it carefully.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> X.</head>
+                  <p>Know now, that whatever we ſay out of Envy, our way is done other, and we proteſt, and will proteſt, that neither We, nor any of the Antients knew any other way; for it is impoſſible that our ſecret can be wrought by any other Prin<g ref="char:EOLhyphen"/>ciples, or any other diſpoſition then this. Our Sophiſm lies only in the two kinds of Fire in our work: the Internal ſecret Fire, which is Gods Inſtrument, hath no qualities perceptible to man, of that Fire we ſpeak often, and ſeem yet to ſpeak of the External heat; and hence ariſe among the unwary many Errours. This is our Fire which is graduated, for the External heat, is almoſt linear all the work, to the white work, it is one with<g ref="char:EOLhyphen"/>out alteration, ſave that in the ſeaven firſt days we keep the heat a little ſlack for certainty and ſecurity ſake, which an experienced Philoſopher need not do.</p>
+                  <p>But the Internal governing heat is in<g ref="char:EOLhyphen"/>ſenſibly
+<pb n="36" facs="tcp:53838:20" rendition="simple:additions"/>
+graduated hourly, and by how much that is daily vigorated by the con<g ref="char:EOLhyphen"/>tinuance of Decoction, the Colours are altered, and the Compound maturated: I have unfolded a main knot unto you, take heed of being inſnared here again.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> XI.</head>
+                  <p>Then you muſt provide a Glaſs Tun, in which you may perfect your work, without which you could never do any thing; Let it be either Oval or Spheri<g ref="char:EOLhyphen"/>cal, ſo big in reference to your Com<g ref="char:EOLhyphen"/>pound, that it may hold about twelve times the quantity of it within its Sphere, let your Glaſs be thick and ſtrong, clear, and free of flaws, with a neck about a Span or Foot long; In this Egg put your matter, ſealing the neck carefully, with<g ref="char:EOLhyphen"/>out flaw, or crack, or hole, for the leaſt vent will let out the ſubtile Spirit, and deſtroy the work.</p>
+                  <p>You may know the exact Sealing of your Glaſs thus, when it is cold, put the neck where it is ſealed, into your mouth, and ſuch ſtrongly; if there be the leaſt vent, you will draw out the Air, that is
+<pb n="37" facs="tcp:53838:20"/>
+in the Vial, into your mouth, which when you take the Glaſs from your mouth, is again ſuckt into the Glaſs with a hiſſing, ſo that your ear may perceive the noiſe; this is an undoubted tryal.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> XII.</head>
+                  <p>You muſt then provide your ſelf with a Furnace, by wiſe men called an <hi>Atha<g ref="char:EOLhyphen"/>nor,</hi> in which you may accompliſh your work; nor will any one ſerve in your firſt work; But ſuch a one in which you may give a heat obſcurely red at your pleaſure, or leſſer, and that in its higheſt degree of heat, it may endure twelve hours at the leaſt.</p>
+                  <p>This if you would obtain; Obſerve, Firſt, that your neſt be no bigger then to contain your diſh with about an Inch vacancy at the ſide where the Vent-hole of your <hi>Athanor,</hi> is for the Fire to play.</p>
+                  <p>Secondly, Let your Diſh be no bigger then to hold one Glaſs with about an inch thickneſs of Aſhes between the Glaſs and ſide, remembring the word of the Philoſopher, One Glaſs, One Thing, One Furnace; for ſuch a Diſh ſtanding with
+<pb n="38" facs="tcp:53838:21"/>
+the bottom level to the vent-hole, which in ſuch a Furnace ought to be but one, about three Inches Diameter, ſloping up<g ref="char:EOLhyphen"/>wards, will with the ſtream of Flame, which is always playing to the top of the Veſſel, and round about the bottom, be kept always in a glowing heat.</p>
+                  <p>Thirdly, If your Diſh be bigger, your Furnace vent muſt be within a third part, or a fourth as big as your Platter is Di<g ref="char:EOLhyphen"/>ameter, elſe it cannot be exactly, nor continually heated.</p>
+                  <p>Fourthly, If your Tower be above ſix Inches ſquare at the Fire-place, you are out of proportion, and can never do rightly as to the point of heat; For if you cauſe it (if above that proportion) to ſtream with flame, the heat will be too big: And if it ſtream not, it will not be big enough, or very hardly.</p>
+                  <p>Fifthly, Let the top of your Furnace be cloſed to an hole which may but juſt ſerve for caſting in of Coals about three Inches Diameter or Square, which will keep down the heat powerfully.</p>
+               </div>
+               <div type="rule">
+                  <pb n="39" facs="tcp:53838:21"/>
+                  <head>
+                     <hi>Rule</hi> XIII.</head>
+                  <p>Theſe things thus ordered, ſet in your Glaſs with your matter, and give Fire as Nature requires, eaſie, not too violent; beginning there where Nature left. Now know, that Nature hath left your Mate<g ref="char:EOLhyphen"/>rials in the Mineral Kingdom; therefore though we take compariſon from Vege<g ref="char:EOLhyphen"/>tables and Animals; Yet you muſt under<g ref="char:EOLhyphen"/>ſtand a Parallel in the Kingdom, in which the Subject you would handle is placed: As for Inſtance, if I ſhould Analogize, between the Generation of a Man, and the Vegetation of a Vegetable, you muſt not underſtand, as though the heat for one, were to be meaſured by the other; for we know, that in the ground Vege<g ref="char:EOLhyphen"/>tables will grow, which is not without heat, which they in the Earth feel, even in the beginning of the Spring; yet would not an Egg be hatched in that heat, nor could a man feel any warmth, but rather to him a numbing cold.</p>
+                  <p>Since then you know that your work appertains all to the Mineral Kingdom; you muſt know what heat is fit for Mi<g ref="char:EOLhyphen"/>neral Bodies, and may be called a gentle
+<pb n="40" facs="tcp:53838:22"/>
+heat, and what violent; Firſt, now con<g ref="char:EOLhyphen"/>ſider, where Nature leaves you, not only in the Mineral Kingdom, but in it to work on Gold and <hi>Mercury,</hi> which are both incombuſtible: Yet <hi>Mercury</hi> being tender, will break all Veſſels, if the Fire be over extreme; Therefore though it be incombuſtible, and ſo no Fire can hurt it, yet alſo it muſt be kept with the Male Sperm in one Glaſs, which if the Fire be too big, cannot be, and by conſequence the work cannot be accompliſhed. So then from the degree of heat that will keep Lead or Tin conſtantly molten, and higher, ſo high as the Glaſs will endure without danger of breaking, is a tempe<g ref="char:EOLhyphen"/>rate heat; and ſo you begin your de<g ref="char:EOLhyphen"/>grees of heat according to the Kingdom in which Nature hath left you.</p>
+                  <p>As then the higheſt degree of heat which the root of a Tree feels in the bowels of the Earth; is not by far com<g ref="char:EOLhyphen"/>parable to the loweſt degree of heat an Animal hath; So the higheſt degree of heat a Vegetable will endure without burning, is too low for the firſt degree of Mineral heat as to our Work.</p>
+               </div>
+               <div type="rule">
+                  <pb n="41" facs="tcp:53838:22"/>
+                  <head>
+                     <hi>Rule</hi> XIV.</head>
+                  <p>Know, that all your progreſs in this Work is to aſcend in <hi>Bus &amp; Nubi,</hi> from the Moon up to the Sun; that is in <hi>Nu<g ref="char:EOLhyphen"/>bibus,</hi> or in <hi>Clouds:</hi> Therefore I charge thee to ſublime in a continual vapour, that the Stone may take Air, and live.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> XV.</head>
+                  <p>Nor is this enough, but for to attain our permanent Tincture, the water of our Lake muſt be boyled with the Aſhes of <hi>Hermes Tree;</hi> I charge thee then to boyl night and day without ceaſing, that in the troubles of the ſtormy Sea, the Heavenly Nature may aſcend, and the Earthly deſcend.</p>
+                  <p>For verily, if we did not Boyl, we would never name our work Decoction, but Digeſtion; For where the Spirits only Circulate ſilently, and the Compound below moves not by an Ebullition, that is only properly to be named Digeſtion.</p>
+               </div>
+               <div type="rule">
+                  <pb n="42" facs="tcp:53838:23"/>
+                  <head>
+                     <hi>Rule</hi> XVI.</head>
+                  <p>Be not over haſty, expecting Harveſt too ſoon, or the end ſoon after the be<g ref="char:EOLhyphen"/>ginning: For if thou be patiently ſup<g ref="char:EOLhyphen"/>ported, in the ſpace of fifty days at the fartheſt, thou ſhalt ſee the Crows Bill.</p>
+                  <p>Many (ſaith the Philoſophers) do ima<g ref="char:EOLhyphen"/>gine our Solution to be an eaſie work; But how hard it is, they can only tell, who have tryed and made Experience: Seeſt thou not a Grain of Corn, ſow it, and after three days thou ſhalt only ſee it ſwell'd; which being dry'd, is the Corn it was before: Yet thou canſt not ſay it was not caſt into its due Matrix; for the Earth is its true place, but only it wanted its due time to Vegetate.</p>
+                  <p>But things of an harder Kernel lie in the ground a far longer time, as Nuts and Plumb-ſtones, for each thing hath its ſeaſon; And this is a true ſign of a natural Operation, that it ſtays its ſea<g ref="char:EOLhyphen"/>ſon, and is not Precipitate: Doſt think then, that Gold the moſt ſolid Body in the world? will change its Form in a ſhort time; Nay, thou muſt wait and wait un<g ref="char:EOLhyphen"/>til
+<pb n="43" facs="tcp:53838:23"/>
+about the 40<hi rend="sup">th.</hi> day utter blackneſs be<g ref="char:EOLhyphen"/>gins to appear; when thou ſeeſt that, then conclude thy Body is deſtroy'd, that is, made a living Soul, and thy Spirit is dead, that is Coagulated with the Body; But till this ſign of Blackneſs, both the Gold and the <hi>Mercury</hi> retain their Forms and Natures.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> XVII.</head>
+                  <p>Beware that thy Fire go not out, no not for a moment, ſo as to let thy Mat<g ref="char:EOLhyphen"/>ter be cold, for ſo Ruine of the Work will certainly follow..</p>
+                  <p>By what has been ſaid, thou mayſt ga<g ref="char:EOLhyphen"/>ther, that all our work is nothing elſe but an unceſſant boyling of thy Com<g ref="char:EOLhyphen"/>pound in the firſt degree of liquifying heat, which is found in the Metalline Kingdom, in which the Internal Vapours ſhall go round about thy matter, in which fume it ſhall both die, and be re<g ref="char:EOLhyphen"/>vived.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> XVIII.</head>
+                  <p>Know, that when the White appears, which will be about the end of Five Months, that then the accompliſhment
+<pb n="44" facs="tcp:53838:24"/>
+of the White Stone approacheth; Re<g ref="char:EOLhyphen"/>joyce then, for now the King hath over<g ref="char:EOLhyphen"/>come Death, and is riſing in the Eaſt with great Glory.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> XIX.</head>
+                  <p>Then continue your Fire until the Co<g ref="char:EOLhyphen"/>lours appear again, then at laſt you ſhall ſee the fair Vermillion, the Red Poppy; Glorifie God then, and be thankful.</p>
+               </div>
+               <div type="rule">
+                  <head>
+                     <hi>Rule</hi> XX.</head>
+                  <p>Laſtly, you muſt boyl this Stone in the ſame water, in the ſame proportion, with the ſame Regimen, (only your Fire ſhall then be a little ſlacker) and ſo you ſhall increaſe Quantity and Goodneſs at your pleaſure.</p>
+                  <p>
+                     <hi>Now the only God the Father of light, bring you to ſee this Regeneration of the light, and make us to rejoyce with him for ever hereafter in light,</hi> Amen.</p>
+               </div>
+            </div>
+         </div>
+      </body>
+      <back>
+         <div type="notice">
+            <head>AN ADVERTISEMENT.</head>
+            <p>THis Author having wrote many Ex<g ref="char:EOLhyphen"/>cellent Pieces on this Subject, not ſo much to manifeſt himſelf an Adept (as many have done) as to benefit the World by his Writings, himſelf profeſſing, that
+<pb facs="tcp:53838:24"/>
+although the reſt of his Adept Brethren had (as we may ſay enviouſly) <hi>ſworn ſe<g ref="char:EOLhyphen"/>crecie</hi> (contrary to their received Maxim of doing all the good they may with this large Talent ſo long as they live, and longer if it might be,) yet had not he ſo ſworn, though they ſuppoſed it; for he had as himſelf confeſſeth, an extraor<g ref="char:EOLhyphen"/>dinary impulſe of mind, <hi>to be helpful to all ſincere ſearchers of this ſecret Art,</hi> (to uſe his own words) <hi>and to stretch out his hand to ſuch as are behind.</hi> Seeing therefore, that it was the Authors own deſire to benefit the World by his Labours, and that he gave his conſent to Mr. <hi>Starkey</hi> for Printing his Pieces, as appears in his <hi>Pre<g ref="char:EOLhyphen"/>face to the Marrow of Alchimy;</hi> I know no reaſon wherefore his Writings ſhould lie conceal'd any longer: And great pity it was that Mr. <hi>Starkey</hi> did ſeparate this Au<g ref="char:EOLhyphen"/>thor's <hi>Commentarie upon Sir</hi> George Rip<g ref="char:EOLhyphen"/>ley's 12 <hi>Gates,</hi> which he did as I was in<g ref="char:EOLhyphen"/>formed by one unto whom he gave the very Book from which he confeſſed he had cut the laſt Six Gates; the Perſon demanding the reaſon wherefore he cut them in ſunder: he anſwered, that the
+<pb facs="tcp:53838:25"/>
+World was unworthy of them; which ne<g ref="char:EOLhyphen"/>vertheleſs he promis'd to give that Perſon a Tranſcript of, but did not, which is the reaſon that they cannot yet be found; the loſs of which is very much lamented. Wherefore if any Gentleman hath them by him, or any other piece of this Author, It is humbly deſired that they will ſend them to the <hi>Pellican</hi> in <hi>Little Britain, London,</hi> that they may be Printed with the firſt <hi>Six Gates,</hi> which are now in the Preſs: And that I may not be wanting to contribute what I can for the diſcovery of this Author's Works, I here make bold to preſent the Reader with a Catalogue of ſuch Pieces as are noted to be writ by this Author under the diſguiſed name of <hi>Aeyraeneus Philalethes,</hi> part whereof are ſet down by Mr. <hi>Starkey</hi> in his Preface a<g ref="char:EOLhyphen"/>forenamed, and part are mentioned by the Author himſelf, with ſeveral others, which he wrote (as he ſaith) for his own recreation, and afterwards burn'd; which Author is acknowledged by all hands to be an Engliſh-man, and an Adept &amp; ſup<g ref="char:EOLhyphen"/>poſed to be yet living, and travelling, and about the age of 55 years, but his Name is not certainly known.</p>
+         </div>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:53838:25"/>
+            <list>
+               <head>Theſe Books in this <hi>Catalogue</hi> were writ<g ref="char:EOLhyphen"/>ten by <hi>Eirenaeus Philalethes,</hi> whereof theſe 15. following are Printed.</head>
+               <item>1. <hi>INtroitus apertus ad occluſum Regis Palatium,</hi> Amſt. 1667. This is Re-printed in <hi>Ger<g ref="char:EOLhyphen"/>many,</hi> with the Collection of Books called <hi>Mu<g ref="char:EOLhyphen"/>ſaeum Hermeticum</hi> of the Edition 1677. in 4<hi rend="sup">o</hi>
+               </item>
+               <item>2. — <hi>Idem</hi> in Engliſh, called Secrets Reveal'd, Printed at <hi>London</hi> 1669. in 8<hi rend="sup">o</hi>. being much more perfect than the Latine Editions.</item>
+               <item>3. The Marrow of Alchymy, in two Poems or Parts, in Engliſh Verſe, <hi>Lond.</hi> 1654. &amp; 1655.</item>
+               <item>4. <hi>Ars Metallorum Metamorphoſeωs,</hi> Amſt. 1668. in 8<hi rend="sup">o</hi>. Theſe are likewiſe in the afore<g ref="char:EOLhyphen"/>ſaid Edition of the <hi>Muſaeum Hermeticum.</hi>
+               </item>
+               <item>5. <hi>Brevis manuductio ad Rubinum Coeleſtem,</hi> Amſt. 1668. in 8<hi rend="sup">o</hi>. Theſe are likewiſe in the afore<g ref="char:EOLhyphen"/>ſaid Edition of the <hi>Muſaeum Hermeticum.</hi>
+               </item>
+               <item>6. <hi>Fons Chymicae Philoſophiae,</hi> Amſt. 1668. in 8<hi rend="sup">o</hi>. Theſe are likewiſe in the afore<g ref="char:EOLhyphen"/>ſaid Edition of the <hi>Muſaeum Hermeticum.</hi>
+               </item>
+               <item>7. <hi>Methodica Enarratio trium Gebri Medicinarum,</hi> Lond. 1678. in 8<hi rend="sup">o</hi>.</item>
+               <item>8. <hi>Vade-Mecum Philoſophicum, ſive breve manuductorium ad Cam<g ref="char:EOLhyphen"/>pum Sophiae,</hi> Lond. 1678. in 8<hi rend="sup">o</hi>.</item>
+               <item>9. <hi>Experimenta de praeparatione Mercurii Sophici,</hi> Lond. 1678. in 8<hi rend="sup">o</hi>.</item>
+               <item>10. A Commentary or Expoſition upon Sir <hi>G. Ripley</hi>'s Epiſtle to <hi>Edw.</hi> IV. King of <hi>England,</hi> Lond. 1678. in 8<hi rend="sup">o</hi>.</item>
+               <item>11. — <hi>Idem</hi> upon Sir <hi>G. Ripley</hi>'s Preface to his Compound of Alchymy, Lond. 1678. in 8<hi rend="sup">o</hi>.</item>
+               <item>
+                  <pb facs="tcp:53838:26"/>12. — <hi>Idem</hi> upon the firſt ſix Gates of his Compound of Alchymy, <hi>Lond.</hi> 1678. in 8<hi rend="sup">o</hi>.</item>
+               <item>13. — <hi>Idem</hi> upon the Recapitulation of his Compound of Alchymy, <hi>Lond.</hi> 1678. in 8<hi rend="sup">o</hi>.</item>
+               <item>14. — <hi>Idem</hi> upon his Viſion, <hi>Lond.</hi> 1678. in 8<hi rend="sup">o</hi>.</item>
+               <item>15. Experiments for the Preparation of the <hi>Sophick Mercury, Lond.</hi> 1678. in 8<hi rend="sup">o</hi>.</item>
+            </list>
+            <list>
+               <head>Theſe 13. following he wrote, but we cannot as yet find where the Copies are.</head>
+               <item>1. A Comment. or Expoſition upon the laſt ſix Gates of Sir <hi>G. Ripley</hi>'s Compound of Al<g ref="char:EOLhyphen"/>chymy.</item>
+               <item>2. — <hi>Idem</hi> upon Sir <hi>G. Ripley</hi>'s Erroneous Ex<g ref="char:EOLhyphen"/>periments.</item>
+               <item>3. — <hi>Idem</hi> upon Sir <hi>G. Ripley</hi>'s Wheel.</item>
+               <item>4. — <hi>Idem</hi> upon <hi>Arnold</hi>'s <hi>
+                     <g ref="char:V">Ʋ</g>ltimum Teſtamentum.</hi>
+               </item>
+               <item>5. <hi>Opus Elixeris Aurifici &amp; Argentifici.</hi>
+               </item>
+               <item>6. <hi>Brevis via ad vitam longam,</hi> or Alchymy Tri<g ref="char:EOLhyphen"/>umphing.</item>
+               <item>7. <hi>Cabala Sapientum,</hi> or an Expoſition upon the Hieroglyphicks of the <hi>Magi.</hi>
+               </item>
+               <item>8. <hi>Elenchus Errorum in Arte Chymica deviantium.</hi>
+               </item>
+               <item>9. <hi>Elenchus Authorum potiſſimorum in Arte Chymica.</hi>
+               </item>
+               <item>10. An <hi>Enchiridion</hi> of Experiments, together with a Diurnal of Meditations, in which were many Philoſophical Receipts, declaring the whole Secret; with an <hi>Aenigma</hi> at the end.</item>
+               <item>11. <hi>Analyſis Operis.</hi>
+               </item>
+               <item>12. A <hi>Clavis</hi> to his Works.</item>
+               <item>13. Comments or Expoſitions upon <hi>Flammel, Artephius,</hi> and <hi>Sendivogius.</hi> But theſe three are rather Quaeried, then affirmed to be wrote by this Author.</item>
+            </list>
+         </div>
+      </back>
+   </text>
+</TEI>
